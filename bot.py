@@ -276,9 +276,9 @@ MSG13_ENT = [
     {"offset":7,"length":2,"type":"custom_emoji","custom_emoji_id":"5221978279661049220"},
     {"offset":9,"length":2,"type":"custom_emoji","custom_emoji_id":"5219803776373790987"},
     {"offset":11,"length":2,"type":"custom_emoji","custom_emoji_id":"5219780991572286175"},
-    {"offset":27,"length":2,"type":"custom_emoji","custom_emoji_id":"5222411637566247305"},
-    {"offset":29,"length":2,"type":"custom_emoji","custom_emoji_id":"5219960315046830005"},
-    {"offset":31,"length":2,"type":"custom_emoji","custom_emoji_id":"5219951742292109016"},
+    {"offset":36,"length":2,"type":"custom_emoji","custom_emoji_id":"5222411637566247305"},
+    {"offset":38,"length":2,"type":"custom_emoji","custom_emoji_id":"5219960315046830005"},
+    {"offset":40,"length":2,"type":"custom_emoji","custom_emoji_id":"5219951742292109016"},
 ]
 
 # ─── keyboards ────────────────────────────────────────────────────────────────
