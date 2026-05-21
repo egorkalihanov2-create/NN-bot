@@ -250,16 +250,16 @@ MSG11_CAPTION = (
     "\u0443 \u043d\u0435\u0433\u043e \u043e\u0442\u0446\u0435\u043d\u0442\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0435 \u0437\u0440\u0435\u043d\u0438\u0435!"
 )
 MSG11_ENT = [
-    {"offset":0,"length":35,"type":"blockquote"},
+    {"offset":0,"length":36,"type":"blockquote"}, # тут тоже чуть поправил длину
     {"offset":0,"length":2,"type":"custom_emoji","custom_emoji_id":"5220121337665726730"},
     {"offset":2,"length":2,"type":"custom_emoji","custom_emoji_id":"5220025809003130352"},
     {"offset":4,"length":2,"type":"custom_emoji","custom_emoji_id":"5219901499764678745"},
     {"offset":7,"length":2,"type":"custom_emoji","custom_emoji_id":"5221978279661049220"},
     {"offset":9,"length":2,"type":"custom_emoji","custom_emoji_id":"5219803776373790987"},
     {"offset":11,"length":2,"type":"custom_emoji","custom_emoji_id":"5219780991572286175"},
-    {"offset":28,"length":2,"type":"custom_emoji","custom_emoji_id":"5222411637566247305"},
-    {"offset":30,"length":2,"type":"custom_emoji","custom_emoji_id":"5219960315046830005"},
-    {"offset":32,"length":2,"type":"custom_emoji","custom_emoji_id":"5219951742292109016"},
+    {"offset":29,"length":2,"type":"custom_emoji","custom_emoji_id":"5222411637566247305"}, # Было 28
+    {"offset":31,"length":2,"type":"custom_emoji","custom_emoji_id":"5219960315046830005"}, # Было 30
+    {"offset":33,"length":2,"type":"custom_emoji","custom_emoji_id":"5219951742292109016"}, # Было 32
     {"offset":36,"length":29,"type":"blockquote"},
 ]
 
