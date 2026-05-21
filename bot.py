@@ -16,7 +16,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-TOKEN = "8754884801:AAH6fK1yb74lrdQ3z-Qe6GbB5gWKqGDZw0k"
+TOKEN = "8754884801:AAE_66a2PpKOGCFdx_HSOUbnOJAXEzxkI_4"
 
 # Передаем таймаут просто числом (300 секунд)
 _HTTP_TIMEOUT = 300
