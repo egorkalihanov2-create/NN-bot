@@ -83,6 +83,8 @@ def E(spec: list) -> list[MessageEntity]:
         kwargs = {"type": s["type"], "offset": s["offset"], "length": s["length"]}
         if s.get("custom_emoji_id"):
             kwargs["custom_emoji_id"] = s["custom_emoji_id"]
+        if s.get("url"):  # Вот эта новая часть для ссылок
+            kwargs["url"] = s["url"]
         result.append(MessageEntity(**kwargs))
     return result
 
@@ -219,6 +221,8 @@ MSG8_ENT = [
     {"offset":36,"length":2,"type":"custom_emoji","custom_emoji_id":"5219750793657226454"},
     {"offset":38,"length":2,"type":"custom_emoji","custom_emoji_id":"5222207540720343242"},
     {"offset":41,"length":71,"type":"blockquote"},
+    # Добавляем саму ссылку на весь текст второй цитаты:
+    {"offset":41,"length":71,"type":"text_link","url":"https://t.me/novaya_nasmotrennost/4889?single"},
 ]
 
 MSG9_TEXT = "(далее — посты в хронологическом порядке, которые дропнутся разом. без интерактива. сорри.)"
@@ -241,6 +245,8 @@ MSG10_ENT = [
     {"offset":26,"length":2,"type":"custom_emoji","custom_emoji_id":"5219960315046830005"},
     {"offset":28,"length":2,"type":"custom_emoji","custom_emoji_id":"5219951742292109016"},
     {"offset":31,"length":18,"type":"blockquote"},
+    # Добавляем ссылку на фразу "сигнал отпечатали!":
+    {"offset":31,"length":18,"type":"text_link","url":"https://t.me/novaya_nasmotrennost/4087?single"},
 ]
 
 MSG11_CAPTION = (
