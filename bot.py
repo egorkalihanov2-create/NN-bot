@@ -16,12 +16,10 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+TOKEN = "8754884801:AAH6fK1yb74lrdQ3z-Qe6GbB5gWKqGDZw0k"
+
 # Передаем таймаут просто числом (300 секунд)
 _HTTP_TIMEOUT = 300
-bot = Bot(token=TOKEN, session=AiohttpSession(timeout=_HTTP_TIMEOUT))
-
-# Крупные PNG (5–6 МБ) на Railway не успевают за дефолтный таймаут ~60 с
-_HTTP_TIMEOUT = ClientTimeout(total=300, connect=60, sock_read=300)
 bot = Bot(token=TOKEN, session=AiohttpSession(timeout=_HTTP_TIMEOUT))
 dp = Dispatcher()
 
